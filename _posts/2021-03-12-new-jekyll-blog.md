@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "又双叒叕搞了個 Jekyll 部落格"
-date: 2021-03-12
-categories: tools
+category: tools
 ---
 經過了漫長的實驗，這次是認真的要搞個長長久久的部落格。不過，這次主要是作為一個 RSS 的轉介工具。這個部落格可能會有點像是《社群網戰》電影裡面，男主角用來紀錄雜想的那種很流水式的部落格；或者把它視為長文版的 Twitter 也可以。預期會發布的內容有：
 
@@ -15,8 +14,7 @@ categories: tools
 底下測試數學式跟程式碼 - 雖然我應該不會用這個部落格發相關的資料，但是沒有添加這些功能就覺得不完整 XD
 
 
-`R` and `Rstan`:
-
+`R` and `Rstan` 程式碼段:
 ``` R
 data {
   int N;
@@ -31,7 +29,7 @@ transformed data {
 }
 ```
 
-
+測試一下複雜（？）的數學式子：
 $$
   \begin{pmatrix} 1&0\\ 0&2   
   \end{pmatrix}   
