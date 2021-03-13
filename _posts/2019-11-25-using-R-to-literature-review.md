@@ -12,7 +12,7 @@ layout: post
 - 核心文獻
 - 前沿主題
 
-## WoS
+## Web of Science
 我自己感興趣的領域是血流動力學模擬。使用了 vascular fluid dynamics 這個關鍵字組合去搜尋。從 Web of Science 上面搜出來的文獻達 1860 篇。具體到底搜尋品質如何，有沒有有所遺漏可能需要人手校正。我覺得用 vessel / hemodynamics / aortic 應該也會有不同的結果，需要整合。這裏暫且按下不提。
 
 WoS 一次只接受匯出 500 筆，所以會有很零散的巨量 bibTex。將數個 bibTex 壓縮成一個 zip，讓 bibliometrix 讀入即可。最後可整合出最關鍵的文獻。
