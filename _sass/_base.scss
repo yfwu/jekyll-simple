@@ -197,12 +197,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   /* font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; */
   /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Roboto Slab", "Hiragino Mincho ProN", serif;
+  font-family: "Roboto Slab", "Klee", "Hiragino Mincho ProN", serif;
   color: #222;
 }
 
