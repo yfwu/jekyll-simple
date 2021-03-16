@@ -2,6 +2,7 @@
 title: "新サクラ大戦：筆記二"
 category: "サクラ大戦"
 layout: post
+image: /assets/img/amamiya.jpg
 ---
 
 寫在二刷之後以及大略完成了「サクラ大戦」。本質上來說，我贊同部分網友所述，遊戲「變了」。這裡的變最主要體現在戰鬥玩法以及人設上。
