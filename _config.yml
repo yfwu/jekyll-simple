@@ -26,3 +26,6 @@ kramdown:
 disqus_shortname:
 # used this for post_excerpt at index_page
 # excerpt_separator: <!--description-->
+
+plugins:
+  - jekyll-seo-tag
