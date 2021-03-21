@@ -2,7 +2,7 @@
 title: "夢のつづき"
 layout: post
 category: サクラ大戦
-image: /assets/img/yumenotuduki.png
+image: /assets/img/yume-budoukan-all.png
 ---
 
 歌を　さあ歌いましょ　それが夢のつづき<br>
