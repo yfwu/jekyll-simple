@@ -1,5 +1,5 @@
 ---
-title:　夢のつづき
+title: "夢のつづき"
 layout: post
 category: サクラ大戦
 image: /assets/img/yumenotuduki.png

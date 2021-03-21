@@ -27,4 +27,4 @@ image: /assets/img/frieren.jpg
 
 ## 一絲不苟的 SOP
 
-本週做 CT-guided lung biopsy 出了 SOP 級的大錯誤（切片針出來沒有掃），剛好病人也出事（air emboli），所以非常的尷尬。主任很生氣，下次要記住。
+本週做 CT-guided lung biopsy 出了 SOP 級的大錯誤（切片針出來沒有掃），剛好病人也出事（air emboli），所以非常的麻煩。主任很生氣，下次要記住。
