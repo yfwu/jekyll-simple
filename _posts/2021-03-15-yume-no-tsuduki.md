@@ -1,5 +1,5 @@
 ---
-title: "夢のつづき"
+title: "サクラ大戦２：夢のつづき"
 layout: post
 category: サクラ大戦
 image: /assets/img/yume-budoukan-all.png
