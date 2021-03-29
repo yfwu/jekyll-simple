@@ -7,8 +7,10 @@ title: Home
     {% for post in site.posts limit:15 %}
     <article class="post_card post">
       <header class="post_header">
-        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | date: "%Y-%m-%d, %A" }}</time>
+        <h1 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h1>
+        <!--<time class="post_date">{{ post.date | date: "%Y-%m-%d, %A" }}</time>-->
+        <br>
+        {{ post.date | date: "%Y-%m-%d, %A" }}
       </header>
       <div class="post_content">
         {{ post.content }}
