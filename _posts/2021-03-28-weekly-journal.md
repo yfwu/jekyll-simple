@@ -13,7 +13,7 @@ image: /assets/img/
 
 ## GRE
 
-GRE 的部分會先利用這幾個月把 Barron 333、Mogoosh 1500 字還有 official guide 及考滿分諸多題目做過一次。八、九月計畫去 Mason 報名假日班，然後在九月底或十月初儘速考試。去 Mason 的主要目的其實是他的人脈團。Mason 很致力於經營補習班學長姐的人脈；這也是他們與其他 GRE 補習班的差別。
+GRE 的部分會先利用這幾個月把 Barrons 333、Magoosh 1500 字還有 official guide 及考滿分諸多題目做過一次。八、九月計畫去 Mason 報名假日班，然後在九月底或十月初儘速考試。去 Mason 的主要目的其實是他的人脈團。Mason 很致力於經營補習班學長姐的人脈；這也是他們與其他 GRE 補習班的差別。
 
 ## 日檢
 
@@ -28,12 +28,12 @@ GRE 的部分會先利用這幾個月把 Barron 333、Mogoosh 1500 字還有 off
 聽力部分打算使用 NHK 的 [NEWS WEB EASY](https://www3.nhk.or.jp/news/easy/index.html) 來做聽寫練習。跟據我了解的現代語言學習方式，最有效率的學習分別是：
 
 - 聽：逐字聽寫
-- 說：回音法：[如何用「回音法」學好英文口說 | 史嘉琳 Karen Chung](https://www.youtube.com/watch?v=sQEWEPIHLzQ)
+- 說：回音法：[如何用「回音法」學好英文口說](https://www.youtube.com/watch?v=sQEWEPIHLzQ)
 - 讀：間隔重複（spaced repetition）
 
 ## R 與 C++
 
-每次 day off 就花半天把 DataCamp 的一門課程做完好了。不然時間也都耗費掉了。我是很不喜歡使用 Python 寫程式，所以應該會把需要計算效能的部分寫成 Rcpp 來調用。目前我的專題研究幾乎都是使用 R，只有少數的 legacy code 不得不用 Python。
+打算每次 day off 就花半天把 DataCamp 的一門課程做完（大約四小時），不然一直在消耗寫程式功力的老本。我是不喜歡 Python，所以應該會把需要計算效能的部分寫成 Rcpp 來調用。目前我的專題研究幾乎都是使用 R，只有少數的 legacy code 不得不用 Python。
 
 ## 研究
 
