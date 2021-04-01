@@ -9,7 +9,7 @@ image: /assets/img/
 
 
 
-本週世界大事有長賜輪（Evergreen Ever Given）卡在蘇伊士運河；看來今年歐洲經濟復甦要完，GDP 下降 1%。
+本週世界大事有長賜輪（Evergreen Ever Given）卡在蘇伊士運河。
 
 ## GRE
 
@@ -28,7 +28,7 @@ GRE 的部分會先利用這幾個月把 Barrons 333、Magoosh 1500 字還有 of
 聽力部分打算使用 NHK 的 [NEWS WEB EASY](https://www3.nhk.or.jp/news/easy/index.html) 來做聽寫練習。跟據我了解的現代語言學習方式，最有效率的學習分別是：
 
 - 聽：逐字聽寫
-- 說：回音法：[如何用「回音法」學好英文口說](https://www.youtube.com/watch?v=sQEWEPIHLzQ)
+- 說：[回音法](https://www.youtube.com/watch?v=sQEWEPIHLzQ)
 - 讀：間隔重複（spaced repetition）
 
 ## R 與 C++
