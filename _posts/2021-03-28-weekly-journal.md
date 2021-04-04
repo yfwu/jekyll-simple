@@ -39,7 +39,7 @@ GRE 的部分會先利用這幾個月把 Barrons 333、Magoosh 1500 字還有 of
 
 老闆又來催繳作業了，要趁著清明連假趕工最重要的 PyTorch 模型。有下列下項目希望能儘快交出去：
 
-1. 動脈剝離辨識模型（要交模型）
+1. 主動脈剝離辨識模型（要交模型）
    1. 整理 mask 及 source image
    2. 試跑任一個 CT segmentation model
 2. 淋巴水腫組成分析
