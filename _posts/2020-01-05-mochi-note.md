@@ -41,11 +41,7 @@ image: /assets/img/mochi.png
 - 發佈筆記爲公開網頁
 
 ## Flashcard
-Flashcard（閃卡），是指以問答、填空形式，搭配 [spaced reptition](https://mochi.cards/blog/using-spaced-repetition-to-learn-a-language/)  來強化對特定細節記憶力的工具。最有名的就是 Anki，以及採用了不同演算法的 Supermemo。Anki 本身強大、簡單，界面簡潔同時也有很多套件。Mochi 本身就是個閃卡系統。
-
-![my Mochi](/assets/img/mymochi.png)
-
-平常工作時間被各種臨牀業務切分的極爲零碎，需要有閃卡利用時間讀書。但是平日下班後，很難專心的讀教科書做卡片，所以需要一套固定，不需要額外心智負擔的 workflow：
+Flashcard（閃卡），是指以問答、填空形式，搭配 [spaced reptition](https://mochi.cards/blog/using-spaced-repetition-to-learn-a-language/)  來強化對特定細節記憶力的工具。最有名的就是 Anki，以及採用了不同演算法的 Supermemo。Anki 本身強大、簡單，界面簡潔同時也有很多套件。Mochi 本身就是個閃卡系統。平常工作時間被各種臨牀業務切分的極爲零碎，需要有閃卡利用時間讀書。但是平日下班後，很難專心的讀教科書做卡片，所以需要一套固定，不需要額外心智負擔的 workflow：
 
 - 將電子資源（網頁、電子書）文件，一邊閱讀、一邊把「知識」做成小卡。
 - 設定一個審覈內容的時間；利用週末精神較好的時候，決定是否保留卡片（剔除瑣碎、重複；整合相關連的卡片），並且進行內容精簡與調整。
