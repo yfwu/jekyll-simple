@@ -465,7 +465,7 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
+/* th,
 td {
   padding: 12px 15px;
   text-align: left;
@@ -478,6 +478,12 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0;
+} */
+
+table,
+tr,
+td {
+  border: none;
 }
 
 /* Spacing

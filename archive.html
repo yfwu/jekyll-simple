@@ -4,7 +4,6 @@ title: Archive
 ---
 
 <div>
-
   <h2>Archive</h2>
 
   <section class="archive_list">
@@ -13,22 +12,23 @@ title: Archive
     <div class="category-name">
       <h2>{{ category | first }}</h2>
     </div>
-    {% for post in category.last %}
-
-    <div class="post_title">
-      {{ post.date | date: "%F" }} 
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
-    </div>
+    <table>
+      {% for post in category.last %}
+      <tr>
+        <div class="post_title">
+          <td>{{ post.date | date: "%F" }}</td>
+          <td>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+          </td>
+        </div>
+      </tr>
+      {% endfor %}
+    </table>
 
     {% endfor %}
-
-    {% endfor %}
-
   </section>
-  
+
   <!--<footer class="article-footer" mar>
     {% include author.html %}
   </footer>-->
 </div>
-
-
