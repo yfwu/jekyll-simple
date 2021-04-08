@@ -1,5 +1,5 @@
 ---
-title: "新一代醫師職位：資訊專科"
+title: 新一代醫師職位：資訊專科
 category: Ideas
 layout: post
 ---
