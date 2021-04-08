@@ -16,7 +16,7 @@ title: Archive
       {% for post in category.last %}
       <tr>
         <div class="post_title">
-          <td>{{ post.date | date: "%F" }}</td>
+          <td>{{ post.date | date: "%F" }}&nbsp;&nbsp;</td>
           <td>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
           </td>

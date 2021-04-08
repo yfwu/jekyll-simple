@@ -484,6 +484,15 @@ table,
 tr,
 td {
   border: none;
+  vertical-align: top;
+}
+
+td {
+  width: 80px;
+}
+
+td + td {
+  width: auto;
 }
 
 /* Spacing
