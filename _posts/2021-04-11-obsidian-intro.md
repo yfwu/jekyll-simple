@@ -13,7 +13,7 @@ layout: post
 > Obsidian is a powerful knowledge base that works on top of
 > a local folder of plain text Markdown files.
 
-特色是純文字檔，所以可以跟其他 markdown 相關軟體結合。筆記本身最大的特色在於通過特殊語法（所謂的 wiki-like `[[]]`），建立起筆記間的連結。Obsidian 的主要競爭對手是大名鼎鼎的 [Roam Research](https://roamresearch.com)，不過兩者的使用方式差異蠻大的，客群也不太一樣。
+特色是純文字檔，所以可以跟其他 markdown 相關軟體結合。最大的特色在於通過特殊語法（wiki-like `[[]]`），建立起筆記間的連結。Obsidian 的主要競爭對手是大名鼎鼎的 [Roam Research](https://roamresearch.com)，不過兩者的使用方式差異蠻大的，客群也不太一樣。
 
 ## Obsidian Publish
 

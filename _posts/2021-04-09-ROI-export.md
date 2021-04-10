@@ -4,7 +4,7 @@ layout: post
 category: Research
 ---
 
-首先通過 Horos 公開的程式碼，了解 OrisiX MD 內的 ROI 曲線是怎麼生成的，接著從官方匯出功能得到 ROI 標注點的座標。其所使用的方法叫做 Spline interpolation。所以，我們可以用 Numpy 照樣刻一套。[StackOverflow 參考文章](https://stackoverflow.com/questions/60105444/how-to-extract-the-function-model-polynomials-from-scipy-interpolate-splprep)
+首先通過 Horos 公開的程式碼，了解 OrisiX MD 內的 ROI 曲線是通過 Spline interpolation 生成；然後可從官方匯出功能得到 ROI 標注點的座標。所以，我們用 Numpy 照樣刻一套。[StackOverflow 參考文章](https://stackoverflow.com/questions/60105444/how-to-extract-the-function-model-polynomials-from-scipy-interpolate-splprep)
 
 ``` python
 import numpy as np
