@@ -11,4 +11,4 @@ category: Ideas
 主要是通過 Twitter。絕大部分的新消息都會從 Twitter 出現。不要使用策展軟體去挑選，用人工方式快速看過每一條貼文可能是更好的方式。如果看到不錯的主題，使用 like。IFTTT 會把這些 like 的內容存到 Google spreedsheet 以及把內容送往我的 telegram。
 
 ## 篩選 / 再分享
-篩選的話，目前是通過 telegram 來瀏覽界面。灣區日報是使用 hubot + Slack 去進行發文自動化。不過，我的思路是：我如果看到某篇文章喜歡，我直接通過該貼文下方的 tweet URL 點回去進行 retweet。IFTTT 抓到 retweet 之後，再轉貼到實際綁著域名的網站（目前計劃用 Tumblr，或可能改用 Wordpress）。
+篩選的話，目前是通過 Telegram 來瀏覽界面。灣區日報是使用 hubot + Slack 去進行發文自動化。不過，我的思路是：我如果看到某篇文章喜歡，我直接通過該貼文下方的 tweet URL 點回去進行 retweet。IFTTT 抓到 retweet 之後，再轉貼到實際綁著域名的網站（目前計劃用 Tumblr，或可能改用 Wordpress）。
