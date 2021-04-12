@@ -1,5 +1,5 @@
 ---
-title: 使用 Keyboard Mastero 快速添加 Inoreader 鏈接
+title: 用 Keyboard Mastero 添加 Inoreader 鏈接
 layout: post
 category: Tools
 image: /assets/img/inoreader.png
