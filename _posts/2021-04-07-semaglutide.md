@@ -10,6 +10,6 @@ layout: post
 
 參考兩個新陳代謝科醫師寫的筆記：
 
-- [Semaglutide是減重治療的新突破？](https://www.dm-note.com/semaglutide-breakthrough-for-weight-reduction/)
+- [Semaglutide 是減重治療的新突破？](https://www.dm-note.com/semaglutide-breakthrough-for-weight-reduction/)
 - [藥物介紹 Ozempic（針劑型 semaglutide）](https://drlazywen.com/2732/)
 
