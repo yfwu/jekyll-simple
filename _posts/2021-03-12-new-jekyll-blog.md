@@ -29,7 +29,9 @@ transformed data {
 }
 ```
 
-測試一下複雜（？）的數學式子：<br>
+測試一下複雜（？）的數學式子：
+
+
 $$
 \begin{pmatrix} 1&0\\ 0&2   
   \end{pmatrix}   

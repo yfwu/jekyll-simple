@@ -14,7 +14,7 @@ layout: post
 ## 改變
 
 - 取消了多數 IFTTT 的 feed 轉發。大多數討論都是可有可無的，比方說我的 [List of John D. Cook](https://twitter.com/zaticwu/lists/john-d-cook) 轉 Slack，以及訂閱諸如 [PythonRR](https://twitter.com/@PythonRR) 等。**我其實也都沒在看。**
-- 其實看看零散的部落文也不是甚麼壞事，但是要節省切換人力，並由程式替我篩選出最重要的內容。所以，我開發了一個 RSS / Atom feed parser bot，主要的工作是每天產生一份各頻道的匯報，有點類似 [Clojure-TW Weekly](https://clojure.tw/weekly/)，讓我不用花時間從數個頻道切換來看內容。另外，我有幾個 Slack 頻道已經超過免費上限而變得不可用。這讓我驚覺**商業服務畢竟不是一個適合長期建設資訊中轉站的地方**。而在過去一年中企圖把 Slack 建設為個人秘書的其實也沒有太大的進展。我決定從 Slack 撤離。
+- 其實看看零散的部落文也不是甚麼壞事，但是要節省切換人力，並由程式替我篩選出最重要的內容。所以，我開發了一個 feed parser bot，主要的工作是每天產生一份各頻道的匯報，有點類似 [Clojure-TW Weekly](https://clojure.tw/weekly/)，讓我不用花時間從數個頻道切換來看內容。另外，我有幾個 Slack 頻道已經超過免費上限而變得不可用。這讓我驚覺**商業服務畢竟不是一個適合長期建設資訊中轉站的地方**。而在過去一年中企圖把 Slack 建設為個人秘書也沒有太大的進展。決定從 Slack 撤離。
 - 資訊重複，清除非必要資訊源。例如我 IFTTT 有一個 Clojure Reddit 轉寄，而我也在 Clojure-TW 的 Telegram 頻道開了一個 Reddit 轉播器。因此，Clojure Reddit 轉信箱就顯得相當雞肋，塞爆信箱而已，目前已經抓這些重複性高的來源予以關閉。
 - 目前留下來在 RSS/Atom 轉 Pocket 的有
     - Connectome 社群的 Wordpress：他們的文章我本來就會每篇看。

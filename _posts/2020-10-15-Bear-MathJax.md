@@ -13,5 +13,6 @@ layout: post
 
 然後用 `$$` 把數學式包起來。
 
-$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
-
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
