@@ -51,10 +51,9 @@ layout: post
 #+RESULTS: my-filter
 | Poor Charlie's Almanack        | Kobo   | investing | N |
 | The Index Revolution           | Kobo   | investing | N |
-| A Random Walk Down Wall Street | p-book | investing | Y |
 ```
 
-主要是想來管理我的藏書 XD 因爲我分散成實體書跟 Kobo 上的電子書；爲了避免我買到重複的，以及方便之後撰寫讀書心得來--亂竽充數--充實部落格，所以有這個計劃。org-table 還是比純 CSV 在這方面強大不少啊！
+主要是想來管理我的藏書 XD 因爲我分散成實體書跟 Kobo 上的電子書；爲了避免我買到重複的，以及方便之後撰寫讀書心得來 <del>亂竽充數</del> 充實部落格，所以有這個計劃。org-table 還是比純 CSV 在這方面強大不少啊！
 
 ## 匯入 CSV 爲 Org-Table
 有個小技巧來把 CSV 檔案轉換爲 Org-Table - 快捷鍵 ``C-u C-c |``。可以成功識別表格內的 ``"``。例如如下表格：
