@@ -2,8 +2,8 @@
 title: Emacs 筆記：Prodigy
 category: Emacs
 layout: post
+hidden: true
 ---
-
 [Prodigy](https://github.com/rejeep/prodigy.el) - Manage external services from within Emacs。
 
 說到 Prodigy 就讓我想到一個 Minecraft 的模組叫 [Mobycraft](https://github.com/AdityaGupta1/mobycraft) - Mobycraft 讓使用者可以從 Minecraft 內操作各種 Docker container，玩家不需要離開 Minecraft 的環境。

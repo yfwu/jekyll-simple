@@ -2,6 +2,7 @@
 title: Emacs 筆記：Aweshell
 category: Emacs
 layout: post
+hidden: true
 ---
 [Aweshell](https://github.com/manateelazycat/aweshell) 是一個 Emacs 套件，用於增強內建的 Eshell。作者自己也有寫了一篇介紹：[《像 IDE 一样使用 Shell》](https://manateelazycat.github.io/emacs/2018/08/10/aweshell.html)，可以參考下。
 

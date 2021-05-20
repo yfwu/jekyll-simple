@@ -2,6 +2,7 @@
 title: Emacs 筆記：編譯 Emacs
 category: Emacs
 layout: post
+hidden: true
 ---
 很多年沒有編譯 Emacs 了。以前會寫一個 crontab 腳本從 GNU Savannah 拉原始碼下來編譯。後來都是用系統版（從 apt / brew / pacman 安裝）。最近在搞我的 PyTorch 機器學習，需要連線到我的 Workstation（安裝了 Ubuntu 18.04.02），但是系統預設的 Emacs 是 25 版；而我用的幾個套件需要 26+ 以上，我又不太想用別人的 PPA，所以只好自己編譯。
 

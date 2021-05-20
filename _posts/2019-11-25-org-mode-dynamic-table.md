@@ -2,6 +2,7 @@
 title: Org-mode 動態表格過濾
 category: Emacs
 layout: post
+hidden: true
 ---
 
 主要是我有管理書籍的需求，但是我又不想使用 Notion 來管理；而其他有表格的筆記服務，例如 Evernote 都沒有針對表格內容的互動功能（例如排序、篩選）。我遂想到，是否可以利用 Emacs 來達成這個功能。

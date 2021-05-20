@@ -3,7 +3,6 @@ title: Obsidian 簡介
 category: Tools
 layout: post
 ---
-
 雖然說轉移筆記方向為製作大量閃卡，但是卡片的缺點是容易見樹不見林。因此，一個統合性的筆記還是必須的。我自己的話是使用以 Markdown 文件為基礎的 Obsidian。稍微介紹一下 Obsidian、Obsidian Publish 服務、Obsidian Community Plugins 這三個東西。
 
 ## Obsidian 本體

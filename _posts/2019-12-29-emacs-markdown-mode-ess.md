@@ -2,6 +2,7 @@
 title: Emacs 筆記：Markdown Mode / ESS
 layout: post
 category: Emacs
+hidden: true
 ---
 重返 Emacs，未來計劃也會把舊文章（套件介紹以及 emacs-lisp）更新回來。
 
