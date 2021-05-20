@@ -2,20 +2,23 @@
 layout: default
 title: Home
 ---
+
 <div class="home">
   <div class="post-list">
-    {% for post in site.posts limit:100 %}
+    {% for post in site.posts limit:50 %}
     <article class="post_card post">
       <header class="post_header">
-        <h1 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h1>
+        <h1 class="post_title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+        </h1>
         <!--<time class="post_date">{{ post.date | date: "%Y-%m-%d, %A" }}</time>-->
       </header>
-      <div class="post_content">
-        {{ post.content }}
-      </div>
-      <hr/>
+      <div class="post_content">{{ post.content }}</div>
+      <hr />
     </article>
     {% endfor %}
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+    <div class="pagination older-post">
+      <a href="./archive"><data data-icon="ei-arrow-right"></data> Archive </a>
+    </div>
   </div>
 </div>

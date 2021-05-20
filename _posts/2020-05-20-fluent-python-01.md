@@ -1,5 +1,5 @@
 ---
-title: Fluent Python Chap 01
+title: Fluent Python Chapter 01
 category: Python
 layout: post
 hidden: true
