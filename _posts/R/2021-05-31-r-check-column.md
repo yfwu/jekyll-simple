@@ -1,5 +1,5 @@
 ---
-title: 最後一格非空欄位取值
+title: 最後一格非空欄位取値
 layout: post
 category: R
 ---
