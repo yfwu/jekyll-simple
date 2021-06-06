@@ -3,7 +3,7 @@ title: 在 Jekyll 貼文中嵌入 MermaidJS
 category: Tools
 layout: post
 ---
-有時候需要畫流程圖，又需要能夠適應各種不同的瀏覽器。這時候，Mermaid JS 就能派上用場了。首先用 `div` tag 以及特定的 class 名稱，將 Mermaid JS 的渲染部分包起來；然後在文章任意處添加 Mermaid JS 的 CDN 連結即可！
+有時候需要畫流程圖，又需要能適應各種不同的瀏覽器。這時候，Mermaid JS 就能派上用場了。首先用 `div` tag 以及特定的 class 名稱，將 Mermaid JS 的渲染部分包起來；然後在文章任意處添加 Mermaid JS 的 CDN 連結即可！
 
 ``` html
 <div class="mermaid">
