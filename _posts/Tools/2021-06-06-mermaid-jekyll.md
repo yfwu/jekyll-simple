@@ -20,10 +20,10 @@ graph LR;
 
 <div class="mermaid" align="center">
 graph TD
-  ROI[ROI in OsiriX] -->|pyOsiriX code| ROId(ROI data)
-  ROId --> |roi2mask| DL[DL tasks]
-  ROId --> |HU_conversion| HUm(HU matrices)
-  DICOM[DICOM] --> |dicom2png16| PNG(16-bits PNG images)
+  ROI[ROI in OsiriX] -->|extract.py| ROId(ROI data)
+  ROId --> |roi2mask.py| DL[DL tasks]
+  ROId --> |convert.py| HUm(HU matrices)
+  DICOM[DICOM] --> |dicom2png16.py| PNG(16-bits PNG images)
   PNG --> DL
   DL --> Seg[Segmentation]
   DL --> Det[Detection]

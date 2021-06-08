@@ -12,7 +12,7 @@ category: "Weekly Journal"
 ## 外科 combine meeting
 週二去外科聯合晨會報告，不過這其實比較像報告給 clerk 聽，講的案例是個罕見的 basaloid squamous cell carcinoma at esophagus。影像部分其實沒什麼可以報的，因為我們最多就是診斷有腫瘤，具體的組織病理還是要通過病理科。
 
-做報告的時候嘗試批次處理（主要是裁切 crop）病人的 CT 影像。我們的 PACS 輸出的時候會在影像加一個不必要的警告標語。找了一陣子後發現使用 convert 最快。程式碼如下：
+做報告的時候嘗試批次處理（主要是裁切 crop）病人的 CT 影像。我們的 PACS 輸出的時候會在影像加一個不必要的警告標語。使用 convert 清除之：
 
 ``` bash
 convert origin.png -crop <a>x<b>+<c>+<d> cropped.png
