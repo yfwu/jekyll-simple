@@ -1,5 +1,5 @@
 ---
-title: 電影評論 - 來自紅花坂
+title: 影評：來自紅花坂
 category: Otaku
 layout: post
 image: /assets/img/poppyhill.jpeg
