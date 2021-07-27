@@ -8,20 +8,20 @@ layout: post
 
 ## 安裝
 
-用的是 [Archfi](https://github.com/MatMoul/archfi)，用來幫我把一些雜七雜八的例如硬碟格式化、`mkinitcpio` 等一鍵搞定。由於是機器學習主機，因此我沒有安裝任何 Xorg 及桌面環境，保持系統整潔。
+用 [Archfi](https://github.com/MatMoul/archfi) 幫我處理比較固定的安裝流程如 `pacstrap`、`mkinitcpio`。由於是機器學習主機，因此我沒有安裝任何 Xorg 及桌面環境，保持系統整潔。據說官方也有安裝助手，不過我沒有測試。
 
 ## 雙作業系統
 
-我主機偶爾會重新啟動到另一個硬碟的 Windows 玩遊戲，所以需要 `os-prober` 來偵測 Windows 的 EFI。`os-prober` 安裝好後會自動在 grub-mkconfig 的時候偵測、添加 Windows。不過這裏有個坑 - 就是要先安裝 `ntfs-3g` 才能偵測。另外還需要將 `/etc/default/grub` 中的 `GRUB_DISABLE_OS_PROBER` 改成 false。
+偶爾會啟動另一個硬碟的 Windows 玩遊戲，所以需要 `os-prober` 來偵測 Windows 的 EFI。`os-prober` 安裝好後會自動在 `grub-mkconfig` 運行的時候偵測、添加 Windows。不過這裏有個坑 - 就是要先安裝 `ntfs-3g` 才能偵測。另外還需要將 `/etc/default/grub` 中的 `GRUB_DISABLE_OS_PROBER` 改成 false。
 
 ```bash
-sudo pacman -S ntfs-3g
+sudo pacman -S ntfs-3g os-prober
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## yay
+## AUR & yay
 
-以前我都用 `yaourt`，不過這工具已經停止維護很久了，現在要安裝來自 Arch Users Repository，可以使用 [yay](https://github.com/Jguer/yay) 這套以 Go 寫成的工具。
+以前我都用 `yaourt`，不過這工具已經停止維護很久了，現在要安裝來自 Arch Users Repository，可以使用 `[yay](https://github.com/Jguer/yay)` 這套以 Go 寫成的工具。
 
 ## RAID
 
@@ -39,7 +39,7 @@ sudo mount /dev/md0 /database
 sudo mkfs.ext4 /dev/md0
 ```
 
-最後把 md0 的資訊寫入 `/etc/fstab`。可以用 `sudo mount -fav` 來測試掛載有沒有問題。注意一開始生成 `fstab` 的時候選標籤而不是 UUID，不然只是困擾自己 XD
+最後把 md0 的資訊寫入 `/etc/fstab`。可以用 `sudo mount -fav` 來測試掛載有沒有問題。注意一開始生成 `fstab` 的時候選標籤而不是 UUID，不然只是困擾自己。
 
 ## Wake on LAN
 
@@ -49,4 +49,4 @@ sudo mkfs.ext4 /dev/md0
 sudo ethtool enp4s0 | grep Wake-on
 ```
 
-只要 `Wake-on` 是 g 即可。接著在平常的作業系統（如我是 macOS）安裝能發送 magic packet 的軟體即可。
+只要 `Wake-on` 是 g 即可。接著在平常的作業系統（如我是 macOS）安裝能發送 magic packet 的軟體。注意另外要查詢一下網卡的 MAC address。
