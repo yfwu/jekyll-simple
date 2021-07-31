@@ -50,3 +50,17 @@ sudo ethtool enp4s0 | grep Wake-on
 ```
 
 只要 `Wake-on` 是 g 即可。接著在平常的作業系統（如我是 macOS）安裝能發送 magic packet 的軟體。注意另外要查詢一下網卡的 MAC address。
+
+## Wireless
+
+在另外一台較小的 NUC 上面也裝了 Arch Linux，需要設定無線網卡，有幾個步驟反覆卡關，紀錄一下。
+
+1. 安裝的時候需要同時安裝：`netctl`、`wifi-menu`、`dialog`、`wpa_supplicant` 這四個東西（很奇怪的是 wifi-menu 竟然沒有設定 dialog 為相依，很令人困擾）。
+2. 從 grub 那邊取消網卡別名，修改一下 `grub.cfg` 中的 `GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"` 然後更新 grub 檔案。
+3. 啟用域名解析服務，我用的是 `systemd-resolved`。
+4. `wifi-menu` 產生檔案；我把 IP 修改為 static，方便我設定 port forwarding。之後 enable 讓它固定啟用。
+
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo systemctl enable systemd-resolved.service
+```
