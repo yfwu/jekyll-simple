@@ -5,11 +5,11 @@ category: "Weekly Journal"
 image: /assets/img/new2.png
 ---
 
-新世紀福音戰士新劇場版的最後一部終於登上了 Amazon Prime 串流，結束了十年來的盼望。這一次，大家都幸福了！目前是四刷，不過因為沒有計劃訂 Amazon Prime，所以就取消帳號，等待之後收購 BD 片。
+新世紀福音戰士新劇場版的最後一部終於登上了 Amazon Prime 串流，圓滿了十年來的盼望。這次，大家都幸福了！目前是四刷，因為沒有計劃訂 Amazon Prime，所以就得等出 BD 才能複習了 XD
 
 ![Eva New Unit-02](/assets/img/new2.png)
 
-最近兩個月沒有很認真的寫週記，主要原因是沈迷「電馭叛客 2077」中，沒什麼實質學習，相對就沒內容可寫了（真是太糟糕了！）。目前電馭叛客的主線已經打完了，現在是在刷二週目，相對比較沒那麼沈迷 XD 這個遊戲扣除 bug 外，劇情、玩法跟背景設定都蠻精準呈現義體化世代會有的樣貌；之後也會寫短評分享哪些地方吸引我。
+最近兩個月沒有很認真的寫週記，主要原因是沈迷電馭叛客，沒什麼實質學習，相對就沒內容可寫了（真是太糟糕了！）。目前電馭叛客的主線已經打完了，現在是在刷二週目，相對沒那麼沈迷 XD 這遊戲扣除 bug 外，劇情、玩法跟背景設定都蠻精準呈現義體化世界會有的樣貌；之後也會寫短評分享哪些地方吸引我。
 
 本週世界大事是阿富汗再次落入塔利班（Taliban）之手！
 
@@ -23,6 +23,6 @@ image: /assets/img/new2.png
 
 ## iPad 學習
 
-12.9 寸 iPad 令人滿意，整理筆記也比用 mac 快。不知道為什麼， macOS PowerPoint 無法直接拖拉圖片到我的記憶軟體 Mochi。打字用 HHKB BT，目前覺得沒什麼缺點。最近試用 [shiftscreen](https://shiftscreen.app)，我甚至覺得可以不需要買筆電了 XD（目前寫程式使用 Terminus 連線到我主機裡面的 Emacs）
+12.9 寸 iPad 令人滿意，整理筆記也比用 mac 快。不知道為什麼， macOS PowerPoint 無法直接拖拉圖片到我的記憶軟體 Mochi。打字用 HHKB BT，目前覺得沒什麼缺點。最近試用 [shiftscreen](https://shiftscreen.app)，我甚至覺得可以不需要買筆電了（目前寫程式使用 Terminus 連線到我主機裡面的 Emacs）
 
 ![iPad Study](/assets/img/ipadstudy.jpeg)
