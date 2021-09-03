@@ -49,7 +49,7 @@ sudo mkfs.ext4 /dev/md0
 sudo ethtool enp4s0 | grep Wake-on
 ```
 
-只要 `Wake-on` 是 g 即可。接著在平常的作業系統（如我是 macOS）安裝能發送 magic packet 的軟體。注意另外要查詢一下網卡的 MAC address。
+只要 `Wake-on` 是 g 即可。接著在平常的作業系統（如我是 macOS）安裝能發送 magic packet 的軟體。注意另外要看一下網卡的 MAC address。
 
 ## Wireless
 

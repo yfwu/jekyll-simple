@@ -4,6 +4,7 @@ category: Emacs
 layout: post
 hidden: true
 ---
+
 [Prodigy](https://github.com/rejeep/prodigy.el) - Manage external services from within Emacs。
 
 說到 Prodigy 就讓我想到一個 Minecraft 的模組叫 [Mobycraft](https://github.com/AdityaGupta1/mobycraft) - Mobycraft 讓使用者可以從 Minecraft 內操作各種 Docker container，玩家不需要離開 Minecraft 的環境。
@@ -13,16 +14,18 @@ Prodigy 作爲一個控制界面，它可以協助我們迅速的啓動特定的
 安裝方式請參考各自的 package manager。
 
 ## macOS 額外設定
+
 主要是軟體在 macOS 上面會進入 nap mode。
 
-``` Shell
+```Shell
 defaults write org.gnu.Emacs NSAppSleepDisabled -bool YES
 ```
 
 ## 定義服務
-有相當多參數可以選擇。文檔建議通過 ``M-x describe-variable <RET> prodigy-services`` 查看。完整的定義如下：
 
-``` Lisp
+有相當多參數可以選擇。文檔在 `M-x describe-variable <RET> prodigy-services`。完整的定義如下：
+
+```Lisp
 (setq prodigy-services
   '((:prop value ...)
     (:prop value ...)))
@@ -31,8 +34,10 @@ defaults write org.gnu.Emacs NSAppSleepDisabled -bool YES
 服務啓動後，會以一個 buffer 的形式來表示，major mode 是 prodigy-viewer-mode，關掉這個 buffer 會連帶的使進程關閉。在 prodigy 的控制面板中，可以控制這些進程。
 
 ## 控制面板，標籤與過濾器
-控制面板的操作模式類似 Dired，不過需要使用前綴 ``c``（不是 control）。另外，可以定義標籤及過濾器，方便一次性的啓動服務。
-``` Lisp
+
+控制面板的操作模式類似 Dired，不過需要使用前綴 `c`（不是 control）。另外，可以定義標籤及過濾器，方便一次性的啓動服務。
+
+```Lisp
 ;; (prodigy-define-tag &rest args)
 (setq prodigy-tags
  '((:prop value ...)
@@ -45,8 +50,10 @@ defaults write org.gnu.Emacs NSAppSleepDisabled -bool YES
 ```
 
 ## 我的使用場景
+
 主要是用來啓動研究專題資料夾的 Jupyter notebook 以及部落格 Hexo server。底下是我一個範例：
-``` Lisp
+
+```Lisp
 (prodigy-define-service
   :name "Research"
   :command "jupyter"
@@ -58,7 +65,8 @@ defaults write org.gnu.Emacs NSAppSleepDisabled -bool YES
 ```
 
 Hexo 的部分有兩個 - 一般性的 localhost server 跟 deploy。
-``` Lisp
+
+```Lisp
 (prodigy-define-service
  :name "Hexo Server"
  :command "hexo"
@@ -80,7 +88,7 @@ Hexo 的部分有兩個 - 一般性的 localhost server 跟 deploy。
 
 另外像 Jekyll 也可以定義；我以前會使用 Jekyll 不過現在改用 Hexo 了。
 
-``` Lisp
+```Lisp
 ;; You should add env varible when defining a tag.
 (prodigy-define-tag
     :name 'jekyll
