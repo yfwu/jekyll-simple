@@ -21,7 +21,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## AUR & yay
 
-以前我都用 `yaourt`，不過這工具已經停止維護很久了，現在要安裝來自 Arch Users Repository，可以使用 `[yay](https://github.com/Jguer/yay)` 這套以 Go 寫成的工具。
+以前我都用 `yaourt`，不過這工具已經停止維護很久了，現在要安裝來自 Arch Users Repository 的軟體，可以使用 [yay](https://github.com/Jguer/yay) 這套以 Go 寫成的工具。
 
 ## RAID
 
@@ -39,7 +39,7 @@ sudo mount /dev/md0 /database
 sudo mkfs.ext4 /dev/md0
 ```
 
-最後把 md0 的資訊寫入 `/etc/fstab`。可以用 `sudo mount -fav` 來測試掛載有沒有問題。注意一開始生成 `fstab` 的時候選標籤而不是 UUID，不然只是困擾自己。
+最後把 md0 的資訊寫入 `/etc/fstab`。可以用 `sudo mount -fav` 來測試掛載有沒有問題。注意一開始生成 `fstab` 的時候選標籤而不是 UUID。
 
 ## Wake on LAN
 
@@ -53,7 +53,7 @@ sudo ethtool enp4s0 | grep Wake-on
 
 ## Wireless
 
-在另外一台較小的 NUC 上面也裝了 Arch Linux，需要設定無線網卡，有幾個步驟反覆卡關，紀錄一下。
+在另外一台較小的 NUC 上面也裝了 Arch Linux，需要設定無線網卡，有幾個步驟反覆卡關，紀錄一下：
 
 1. 需要同時安裝：`netctl`、`wifi-menu`、`dialog`、`wpa_supplicant` 這四個套件才能順暢使用無線網路（很奇怪的是 `wifi-menu` 竟然沒有設定 `dialog` 為相依，很令人困擾）。
 2. 從 grub 那邊取消網卡別名，修改一下 `grub.cfg` 中的 `GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"` 然後更新 grub 檔案。
