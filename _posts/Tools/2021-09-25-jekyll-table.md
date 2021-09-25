@@ -8,24 +8,5 @@ layout: post
 
 資料放在 `_data` 下就可以通過 `site.data.table` 來取用。搭配 HTML tag `<table>` `<tr>` `<th>` 就可以建構表格了。其實 Jekyll 有個 `tablerow` 元件可以用，但是就不會生成所謂的 header row，所以必須自幹。
 
-<table>
-
-{% for row in site.data.sample %}
-
-{% if forloop.first %}
-
-<tr>
-{% for pair in row %}
-<th>{{ pair[0] }}</th>
-{% endfor %}
-</tr>
-
-{% endif %}
-
-{% tablerow pair in row %}
-{{ pair[1] }}
-{% endtablerow %}
-
-{% endfor %}
-
-</table>
+{% assign row = site.data.sample[0] %}
+{{ row | inspect }}
