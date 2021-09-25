@@ -3,6 +3,8 @@ title: Mount Linux Server File System on macOS Finder
 layout: post
 category: Linux
 ---
+> 2021/09/15 補充說明：現在從 brew 安裝會提示說依賴閉源 macFUSE 所以不再列於列表中。我還沒有特別找解決方法。
+
 最近在做 semantic segmentation，第一步主要還是復現別人的模型，才能追求改造。因此，我的第一步是瞭解說，別人的訓練資料集的資料是怎麼排列。我的 Linux 主機主要是 Ubuntu server。爲了穩定，我沒有安裝任何的 X-server 以及 display manager 相關的軟體，全部都是從我的 macOS 端通過 LAN 去連線。
 
 需要安裝這兩個軟體；兩個都可以通過 brew 安裝。
