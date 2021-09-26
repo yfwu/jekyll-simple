@@ -12,7 +12,7 @@ theme: uncover
 paginate: true
 ```
 
-即可！（註記：分別是啟用 marp、設定主題、設定頁碼）
+即可！（註記：分別是啓用 marp、設定主題、設定頁碼）
 
 具體轉換程式與一些特殊的語法可以參考 [Marp Core](https://github.com/marp-team/marp-core)。主題部分，官方提供的選擇除了預設外還有 Gaia 跟 Uncover 兩組。我個人覺得 Uncover 蠻適合用來做快速簡報的投影片。
 
@@ -22,6 +22,7 @@ paginate: true
 - 預設數學使用 katex
 - 自動縮放程式碼跟數學式
 - 使用 `---` 作為分頁
+- 傳統比例投影片： `size: 4:3`
 
 底下是官方圖片，借來展示一下：
 
